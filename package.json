@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "voice-command:start": "npx nx run voice-command:serve --port 4204 --host 0.0.0.0",
-    "voice-command:build": "npx nx voice-command:collect-vars && npx nx run voice-command:build"
+    "voice-command:build": "yarn nx run voice-command:collect-vars && yarn nx run voice-command:build"
   },
   "private": true,
   "dependencies": {
